@@ -83,11 +83,11 @@
 		<distributionManagement>
         <repository>
             <id>maven-releases</id>
-            <url>http://43.203.237.235:8081/repository/maven-releases/</url>
+            <url>http://my-nexus3.nexus.svc.cluster.local:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>maven-snapshots</id>
-            <url>http://43.203.237.235:8081/repository/maven-snapshots/</url>
+            <url>http://my-nexus3.nexus.svc.cluster.local:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
